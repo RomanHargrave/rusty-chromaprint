@@ -19,3 +19,4 @@ mod quantize;
 mod rolling_image;
 mod stages;
 mod utils;
+mod compression;
