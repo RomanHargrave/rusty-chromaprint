@@ -2,6 +2,7 @@
 
 pub use fingerprint_matcher::{match_fingerprints, Segment};
 pub use fingerprinter::{Configuration, Fingerprinter};
+pub use compression::{compress_fingerprint, decompress_fingerprint};
 
 mod audio_processor;
 mod chroma;
